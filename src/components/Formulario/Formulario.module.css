@@ -1,0 +1,47 @@
+.title {
+    text-align: center;
+    background-color: blueviolet;
+    max-width: 360px;
+    margin: 0 auto 40px;
+    border-radius: 24px;
+    color: #fff;
+    padding: 16px;
+}
+
+.form {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.input {
+    border-radius: 8px;
+    padding: 16px;
+    margin-right: 24px;
+    outline: none;
+    font-size: 24px;
+
+    @media (max-width: 640px) {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+}
+
+.button {
+    border-radius: 8px;
+    padding: 16px;
+    background-color: blue;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.resultado {
+    color: #fff;
+    font-size: 24px;
+    border-radius: 24px;
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+}
